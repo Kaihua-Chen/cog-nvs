@@ -51,11 +51,7 @@ pip install -r cognvs_requirements.txt
 
    Please refer to Step 3 "Self-supervised Data Pair Generation" to generate training pairs and then follow Step 4 "Test-time Finetuning" to finetune our inpainting checkpoints on your target sequence.
 
-   We also provide checkpoints already finetuned on our `demo_data`. If you want to skip test-time finetuning, download them (~20GB each) from:
-
-   ```bash
-   git clone https://huggingface.co/kaihuac/cognvs_ckpt_test_time_finetuned
-   ```
+   We also provide checkpoints already finetuned on our `demo_data`. If you want to skip test-time finetuning, download them (~20GB each) from: [Link](https://huggingface.co/datasets/kaihuac/cognvs_ckpt_test_time_finetuned)
 
 ## 2. Inference
 
@@ -193,7 +189,7 @@ sh process_ckpts.sh
 
 ## Acknowledgements
 
-Our work builds on **[CogVideoX](https://huggingface.co/zai-org/CogVideoX-5b-I2V)** and uses **[DeepSpeed ZeRO-2](https://www.deepspeed.ai/tutorials/zero/)** for memory-efficient finetuning. Video depth estimation adopts **[MegaSAM](https://github.com/mega-sam/mega-sam)** or **[DepthCrafter](https://github.com/Tencent/DepthCrafter)**. Concurrent research includes [ViewCrafter](https://github.com/Drexubery/ViewCrafter), [GEN3C](https://research.nvidia.com/labs/toronto-ai/GEN3C/), [CAT4D](https://cat-4d.github.io/), [TrajectoryCrafter](https://github.com/TrajectoryCrafter/TrajectoryCrafter), and [ReCamMaster](https://jianhongbai.github.io/ReCamMaster/). We thank the authors for their contributions.
+Our work builds on [CogVideoX](https://huggingface.co/zai-org/CogVideoX-5b-I2V) and uses [DeepSpeed ZeRO-2](https://www.deepspeed.ai/tutorials/zero/) for memory-efficient finetuning. Video depth estimation adopts [MegaSAM](https://github.com/mega-sam/mega-sam) or [DepthCrafter](https://github.com/Tencent/DepthCrafter). Concurrent research includes [ViewCrafter](https://github.com/Drexubery/ViewCrafter), [GEN3C](https://research.nvidia.com/labs/toronto-ai/GEN3C/), [CAT4D](https://cat-4d.github.io/), [TrajectoryCrafter](https://github.com/TrajectoryCrafter/TrajectoryCrafter), and [ReCamMaster](https://jianhongbai.github.io/ReCamMaster/). We thank the authors for their contributions.
 
 ## Citation
 
