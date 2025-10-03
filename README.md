@@ -114,14 +114,6 @@ python data_gen.py \
 
 Evaluation renders will be created from predefined trajectories in the `trajs/` folder. You can customize trajectories by editing those `.txt` files.
 
-4. Convert MegaSAM output
-
-After running **[MegaSAM](https://github.com/mega-sam/mega-sam)**, you will get `{seq}_sgd_cvd_hr.npz`. To convert it into the `cam_info` folder format, run:
-
-```bash
-python toolbox/convert_megasam_outputs.py
-```
-
 ## 4. Test-time Finetuning
 
 After generating training pairs, edit the config files and run test-time finetuning:
