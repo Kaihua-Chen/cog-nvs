@@ -12,7 +12,7 @@ MODEL_ARGS=(
 
 # Output Configuration (per‐seq)
 OUTPUT_ARGS=(
-    --output_dir "../checkpoints/cognvs_ckpt_finetuned_bear"
+    --output_dir "../checkpoints/cognvs_ckpt_finetuned_davis_bear"
     --report_to "wandb"
 )
 
