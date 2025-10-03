@@ -61,7 +61,7 @@ You can run inference in three ways:
 - Download and use our provided test-time finetuned checkpoints
 - Perform your own test-time finetuning (following instructions in later sections) and run inference afterward
 
-Example using a provided test-time finetuned checkpoint:
+Example using a test-time finetuned checkpoint:
 
 ```bash
 python demo.py \
