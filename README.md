@@ -67,7 +67,7 @@ Example using a test-time finetuned checkpoint:
 python demo.py \
     --model_path "checkpoints/CogVideoX-5b-I2V" \
     --cognvs_ckpt_path "checkpoints/cognvs_ckpt_finetuned_bear" \
-    --data_path "demo_data/bear" \
+    --data_path "demo_data/davis_bear" \
     --mp4_name "example_eval_render.mp4"
 ```
 
@@ -95,7 +95,7 @@ sequence_name/
 ```bash
 python data_gen.py \
     --device "cuda:0" \
-    --data_path "demo_data/bear" \
+    --data_path "demo_data/davis_bear" \
     --mode "train" \
     --intrinsics_file "cam_info/megasam_intrinsics.npy" \
     --extrinsics_file "cam_info/megasam_c2ws.npy"
@@ -108,7 +108,7 @@ python data_gen.py \
 ```bash
 python data_gen.py \
     --device "cuda:0" \
-    --data_path "demo_data/bear" \
+    --data_path "demo_data/davis_bear" \
     --mode "eval"
 ```
 

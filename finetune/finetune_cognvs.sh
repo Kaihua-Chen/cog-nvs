@@ -19,7 +19,7 @@ OUTPUT_ARGS=(
 # Data Configuration (per‐seq)
 DATA_ARGS=(
     --json_file ""
-    --base_dir_input "../demo_data/bear"
+    --base_dir_input "../demo_data/davis_bear"
     --base_dir_target ""
     --train_resolution "49x480x720"
 )
