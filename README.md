@@ -31,11 +31,13 @@ pip install -r cognvs_requirements.txt
 ### 1.2 Download Checkpoints
 
 1. **CogVideoX base model**
-    Download the original CogVideoX-5b-I2V checkpoints from:
+
+   Download the original CogVideoX-5b-I2V checkpoints from:
     https://huggingface.co/zai-org/CogVideoX-5b-I2V
 
-2. **CogNVS inpainting checkpoint**
-    We provide CogNVS inpainting checkpoints, which can be used for further test-time finetuning on the sequences you want:
+3. **CogNVS inpainting checkpoint**
+
+   We provide CogNVS inpainting checkpoints, which can be used for further test-time finetuning on the sequences you want:
 
    ```bash
    mkdir checkpoints
@@ -45,8 +47,9 @@ pip install -r cognvs_requirements.txt
    cd ..
    ```
 
-3. **Test-time finetuned checkpoints**
-    Please refer to Step 3 "Self-supervised Data Pair Generation" to generate training pairs and then follow Step 4 "Test-time Finetuning" to finetune our inpainting checkpoints on your target sequence.
+4. **(Optional) Test-time finetuned checkpoints**
+
+   Please refer to Step 3 "Self-supervised Data Pair Generation" to generate training pairs and then follow Step 4 "Test-time Finetuning" to finetune our inpainting checkpoints on your target sequence.
 
    We also provide checkpoints already finetuned on our `demo_data`. If you want to skip test-time finetuning, download them (~20GB each) from:
 
