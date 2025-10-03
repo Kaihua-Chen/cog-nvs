@@ -74,7 +74,7 @@ python demo.py \
 The output will be saved to:
 
 ```
-demo_data/bear/outputs/example_eval_render_out.mp4
+demo_data/davis_bear/outputs/example_eval_render_out.mp4
 ```
 
 ## 3. Self-supervised Data Pair Generation
