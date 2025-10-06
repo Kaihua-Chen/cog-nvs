@@ -66,7 +66,7 @@ Example using a test-time finetuned checkpoint:
 ```bash
 python demo.py \
     --model_path "checkpoints/CogVideoX-5b-I2V" \
-    --cognvs_ckpt_path "checkpoints/cognvs_ckpt_finetuned_davis_bear" \
+    --cognvs_ckpt_path "checkpoints/cognvs_ckpt_finetuned_davis_bear/my_checkpoint-200_transformer" \
     --data_path "demo_data/davis_bear" \
     --mp4_name "example_eval_render.mp4"
 ```
