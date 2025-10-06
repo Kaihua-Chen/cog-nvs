@@ -179,6 +179,10 @@ cd checkpoints
 sh process_ckpts.sh
 ```
 
+⏳ This processing step can take about **20 minutes or longer**, depending on your system performance.
+
+5. Go back to **Section 2 (Inference)** and run evaluation
+
 ## Acknowledgements
 
 Our work builds on [CogVideoX](https://huggingface.co/zai-org/CogVideoX-5b-I2V) and uses [DeepSpeed ZeRO-2](https://www.deepspeed.ai/tutorials/zero/) for memory-efficient finetuning. Video depth estimation adopts [MegaSAM](https://github.com/mega-sam/mega-sam) or [DepthCrafter](https://github.com/Tencent/DepthCrafter). Concurrent research includes [ViewCrafter](https://github.com/Drexubery/ViewCrafter), [GEN3C](https://research.nvidia.com/labs/toronto-ai/GEN3C/), [CAT4D](https://cat-4d.github.io/), [TrajectoryCrafter](https://github.com/TrajectoryCrafter/TrajectoryCrafter), [ReCamMaster](https://jianhongbai.github.io/ReCamMaster/), etc. We thank the authors for their contributions.
