@@ -179,7 +179,7 @@ cd checkpoints
 sh process_ckpts.sh
 ```
 
-⏳ This processing step can take about **20 minutes or longer**, depending on your system performance.
+This processing step can take ~20 min or longer, depending on your system performance.
 
 5. Go back to **Section 2 (Inference)** and run evaluation
 
