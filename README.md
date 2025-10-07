@@ -70,7 +70,7 @@ python demo.py \
     --data_path "demo_data/davis_bear" \
     --mp4_name "example_eval_render.mp4"
 ```
-where `mp4_name` is the name of the input video, and can also be a pattern like `eval_render*.mp4`
+where `mp4_name` is the name of the input video, and can also be a pattern like `eval_render*.mp4`.
 
 The output will be saved to:
 
@@ -182,7 +182,7 @@ sh process_ckpts.sh
 
 This processing step can take ~20 min or longer, depending on your system performance.
 
-5. Go back to **Section 2 (Inference)** and run evaluation
+5. Go back to **Section 2 (Inference)** and run on evaluation renders
 
 ## Acknowledgements
 
