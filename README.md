@@ -12,7 +12,7 @@ This repository contains the official implementation of **CogNVS**.
 - [x] Release self-supervised data generation code
 - [x] Release CogNVS test-time finetuning code
 - [ ] Release evaluation code on Kubric-4D, ParallelDomain-4D, and Dycheck
-- [ ] Train a better CogNVS inpainting checkpoint with more data once more compute is available
+- [ ] Train a better CogNVS inpainting checkpoint with more data, once more compute is available
 
 ## 1. Getting Started
 
