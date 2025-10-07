@@ -9,10 +9,10 @@ This repository contains the official implementation of **CogNVS**.
 ## TODO
 
 - [x] Release CogNVS inference pipeline and checkpoints
-
 - [x] Release self-supervised data generation code
-
 - [x] Release CogNVS test-time finetuning code
+- [ ] Release evaluation code on Kubric-4D, ParallelDomain-4D, and Dycheck
+- [ ] Train a better CogNVS inpainting checkpoint with more data once more compute is available
 
 ## 1. Getting Started
 
@@ -70,11 +70,12 @@ python demo.py \
     --data_path "demo_data/davis_bear" \
     --mp4_name "example_eval_render.mp4"
 ```
+where `mp4_name` is the name of the input video, and can also be a pattern like `eval_render*.mp4`
 
 The output will be saved to:
 
 ```
-demo_data/davis_bear/outputs/example_eval_render_out.mp4
+demo_data/davis_bear/outputs/
 ```
 
 ## 3. Self-supervised Data Pair Generation
