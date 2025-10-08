@@ -1,5 +1,7 @@
 # Reconstruct, Inpaint, Finetune: Dynamic Novel-view Synthesis from Monocular Videos
 
+[**[Paper]**](https://arxiv.org/abs/2507.12646) | [**[Project Page]**](https://cog-nvs.github.io/)
+
 [*Kaihua Chen<sup>*</sup>*](https://kaihua-chen.github.io/), [*Tarasha Khurana<sup>*</sup>*](https://www.cs.cmu.edu/~tkhurana/), [*Deva Ramanan*](https://www.cs.cmu.edu/~deva/)
 
 This repository contains the official implementation of **CogNVS**.
