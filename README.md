@@ -1,4 +1,4 @@
-# Reconstruct, Inpaint, Finetune: Dynamic Novel-view Synthesis from Monocular Videos
+# Reconstruct, Inpaint, Test-Time Finetune: Dynamic Novel-view Synthesis from Monocular Videos
 
 [**[Paper]**](https://arxiv.org/abs/2507.12646) | [**[Project Page]**](https://cog-nvs.github.io/)
 
@@ -196,7 +196,7 @@ If you find this work helpful, please cite:
 
 ```bibtex
 @inproceedings{chen2025cognvs,
-  title     = {Reconstruct, Inpaint, Finetune: Dynamic Novel-view Synthesis from Monocular Videos},
+  title     = {Reconstruct, Inpaint, Test-Time Finetune: Dynamic Novel-view Synthesis from Monocular Videos},
   author    = {Chen, Kaihua and Khurana, Tarasha and Ramanan, Deva},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   year      = {2025}
