@@ -24,10 +24,7 @@ sh run_all_eval.sh
 All evaluation results will be written to `eval_log.log`, corresponding to the
 quantitative tables reported in the paper.
 
-⚠️ Notes:
-
-1. Numerical differences from the paper will occur due to data processing details, but they are within reasonable tolerance and do not affect conclusions and rankings.
-2. For DyCheck, the paper reports results evaluated at **720(W) × 960(H)** resolution.
+⚠️ Notes: Numerical differences from the paper will occur due to data processing details, but they are within reasonable tolerance and do not affect conclusions and rankings.
 
 ## 2. MegaSAM render on DyCheck
 
