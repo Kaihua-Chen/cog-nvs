@@ -31,7 +31,7 @@ quantitative tables reported in the paper.
 
 ## 2. MegaSAM render on DyCheck
 
-For `MegaSAM_render` on DyCheck, we stack the background and optimize the camera at test time (`tto_cam`, a procedure similar to `render_test_tto` in `mosca_evaluate.py` from the [MoSca](https://github.com/JiahuiLei/MoSca) codebase). To reproduce this process, see `dycheck_eval_render.py`. Running this script requires [PyTorch3D](https://pytorch3d.org/); if it is difficult to install under the cognvs environment, we recommend using a separate environment.
+For `MegaSAM_render` on DyCheck, we stack the background, and optimize the camera at test time (`tto_cam`, a procedure similar to `render_test_tto` in `mosca_evaluate.py` from the [MoSca](https://github.com/JiahuiLei/MoSca) codebase). To reproduce this process, see `dycheck_eval_render.py`. Running this script requires [PyTorch3D](https://pytorch3d.org/); if it is difficult to install under the cognvs environment, we recommend using a separate environment.
 
 Download the data required to create DyCheck renders can be downloaded from [dycheck_render_inputs](https://huggingface.co/datasets/kaihuac/dycheck_render_inputs). 
 
