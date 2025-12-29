@@ -13,7 +13,7 @@ This repository contains the official implementation of **CogNVS**.
 - [x] Release CogNVS inference pipeline and checkpoints
 - [x] Release self-supervised data generation code
 - [x] Release CogNVS test-time finetuning code
-- [ ] Release evaluation code on Kubric-4D, ParallelDomain-4D, and Dycheck
+- [x] Release evaluation code on Kubric-4D, ParallelDomain-4D, and Dycheck
 - [ ] Train a better CogNVS inpainting checkpoint with more data, once more compute is available
 
 ## 1. Getting Started
@@ -106,6 +106,8 @@ python data_gen.py \
 
 (`intrinsics_file` and `extrinsics_file` are optional. The pipeline still works if you only provide the depth file from MegaSAM, DepthCrafter, etc.)
 
+⚠️ You can convert MegaSAM `.npz` outputs into our `megasam_depth.npy` format using `toolbox/convert_megasam_outputs.py`.
+
 3. Generate evaluation pairs
 
 ```bash
@@ -185,6 +187,12 @@ sh process_ckpts.sh
 This processing step can take ~20 min or longer, depending on your system performance.
 
 5. Go back to **Section 2 (Inference)** and run on evaluation renders
+
+## 5. Evaluation
+
+We provide evaluation code to reproduce the quantitative results reported in the paper on Kubric-4D, ParallelDomain4D, and DyCheck.
+
+See [eval/README.md](eval/README.md) for evaluation instructions.
 
 ## Acknowledgements
 
