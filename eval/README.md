@@ -21,7 +21,7 @@ To evaluate all methods on all datasets, set the correct `BASE_PATH` in
 sh run_all_eval.sh
 ```
 
-All evaluation results are appended to `eval_log.log`, corresponding to the
+All evaluation results will be written to `eval_log.log`, corresponding to the
 quantitative tables reported in the paper.
 
 ⚠️ Notes:
