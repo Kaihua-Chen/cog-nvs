@@ -32,7 +32,7 @@ quantitative tables reported in the paper.
    `eval/list/pardom_test20.txt` in the GCD codebase). These datasets are evaluated
    at a resolution of `384(H) × 576(W)`.
 
-3. For **DyCheck**, the MegaSAM renders can be obtained by following the next
+3. For **DyCheck**, we obtain the MegaSAM renders by following the next
    section. DyCheck is evaluated at a resolution of `960(H) × 720(W)`.
    
 ## 2. MegaSAM render on DyCheck
