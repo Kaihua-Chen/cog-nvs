@@ -2,7 +2,7 @@
 
 We provide evaluation code to reproduce the quantitative results reported in the paper on Kubric-4D, ParallelDomain4D, and DyCheck.
 
-Download the prediction results (including CogNVS, TrajCrafter, GCD, Shape-of-Motion, MoSCA, etc.) from
+Download the prediction results (including CogNVS, TrajCrafter, GCD, Shape-of-Motion, Mosca, etc.) from
 [cognvs_eval_results](https://huggingface.co/datasets/kaihuac/cognvs_eval_results).
 
 Example: evaluate CogNVS on Kubric-4D
