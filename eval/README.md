@@ -2,7 +2,7 @@
 
 We provide evaluation code to reproduce the quantitative results reported in the paper on Kubric-4D, ParallelDomain4D, and DyCheck.
 
-Download the precomputed evaluation results from
+Download the prediction results (including CogNVS, TrajCrafter, GCD, Shape-of-Motion, MoSCA, etc.) from
 [cognvs_eval_results](https://huggingface.co/datasets/kaihuac/cognvs_eval_results).
 
 Example: evaluate CogNVS on Kubric-4D
@@ -24,7 +24,10 @@ sh run_all_eval.sh
 All evaluation results will be written to `eval_log.log`, corresponding to the
 quantitative tables reported in the paper.
 
-⚠️ Notes: Numerical differences from the paper will occur due to data processing details, but they are within reasonable tolerance and do not affect conclusions and rankings.
+⚠️ Notes:
+1. Numerical differences from the paper will occur due to data processing details, but they are within reasonable tolerance and do not affect conclusions and rankings.
+2. For Kubric4D and Pardom4D, we follow the evaluation protocol from [GCD](https://github.com/basilevh/gcd), using subsets of 20 sequences for each dataset (specifically `eval/list/kubric_test20.txt` and `eval/list/pardom_test20.txt` in the GCD codebase).
+3. In our paper, Kubric4D and Pardom4D are evaluated at a resolution of `384(H) × 576(W)`, while DyCheck is evaluated at `960(H) × 720(W)`.
 
 ## 2. MegaSAM render on DyCheck
 
